@@ -42,7 +42,11 @@ li {
 }
 
 .sidebyside {
+    overflow: hidden;
+    display: inline-block;
     img {
+        float: left;
+        display: block;
         margin-left: 20px;
         &:first-child {
             margin-left: 0;
