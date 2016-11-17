@@ -18,9 +18,10 @@
       "prefix": "app",
       "mobile": false,
       "styles": [
-        "styles.sass"
+        "styles.scss"
       ],
-      "scripts": [],
+      "scripts": [
+      ],
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",
@@ -28,8 +29,11 @@
       }
     }
   ],
-  "addons": [],
-  "packages": [],
+  "addons": [
+  ],
+  "packages": [
+    "node_modules/angular2-highlight-js/lib"
+  ],
   "e2e": {
     "protractor": {
       "config": "./protractor.conf.js"
@@ -41,7 +45,7 @@
     }
   },
   "defaults": {
-    "styleExt": "sass",
+    "styleExt": "scss",
     "prefixInterfaces": false,
     "inline": {
       "style": false,

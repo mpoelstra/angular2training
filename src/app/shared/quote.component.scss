@@ -1,0 +1,16 @@
+:host {
+    color: #fff;
+    font-size: 4rem;
+    font-style: italic;
+    text-align: center;
+    max-width: 80%;
+    margin-top: 75px;
+    display: inline-block;
+
+    &:before {
+        content: open-quote;
+    }
+    &:after {
+        content: close-quote;
+    }
+}

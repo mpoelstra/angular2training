@@ -1,0 +1,14 @@
+:host {
+    display: block;
+    height: auto;
+    background: #303030;
+    position: relative;
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+
+@media only screen and (min-height: 600px) {
+    :host {
+        height: 100vh;
+    }
+}

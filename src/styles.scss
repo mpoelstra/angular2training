@@ -1,0 +1,52 @@
+/* You can add global styles to this file, and also import other style files */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html { 
+  font-size: 62.5%; 
+}
+
+body, button, select, html, textarea, input {
+    font-family: 'Open Sans', sans-serif;
+    font-size:10px; 
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+h2 {
+  color: #FFF;
+  font-size: 3rem;
+}
+
+img { 
+    display: inline-block;
+    max-width: 90%;
+    height: auto;
+}
+
+ul, li {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+li {
+    color: #FFF;
+    font-size: 2.5rem;
+    line-height: 4.5rem;
+}
+
+.sidebyside {
+    img {
+        margin-left: 20px;
+        &:first-child {
+            margin-left: 0;
+            margin-right: 20px;
+        }
+    }
+}
