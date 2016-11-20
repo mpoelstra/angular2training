@@ -21,11 +21,12 @@ body {
 h2 {
   color: #FFF;
   font-size: 3rem;
+  margin: 20px 0;
 }
 
 img { 
     display: inline-block;
-    max-width: 90%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -56,8 +57,10 @@ li {
 }
 
 .topbottom {
+    display: inline-block;
     img {
         margin-top: 40px;
+        display: block;
         &:first-child {
             margin-top: 0;
         }
