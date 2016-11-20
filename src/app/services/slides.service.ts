@@ -51,7 +51,6 @@ export class SlideService {
         if (!this.animating) {
           this.elements = this.getNg2SlideElements();
           const currentIndex: number = this.getCurrentSlideIndex(this.elements);
-
           if (event.deltaY > this.config.sensitivity || event.key === 'ArrowDown') {
             this.scrollToIndex(currentIndex + 1, currentIndex);
           } else if (event.deltaY < -this.config.sensitivity || event.key === 'ArrowUp') {
