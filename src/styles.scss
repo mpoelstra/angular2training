@@ -21,13 +21,14 @@ body {
 h2 {
   color: #FFF;
   font-size: 3rem;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 img { 
     display: inline-block;
     max-width: 100%;
     height: auto;
+    max-height: 500px;
 }
 
 ul, li {
