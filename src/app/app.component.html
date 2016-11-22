@@ -303,10 +303,13 @@
         Instead, you request one in the constructor, and the framework will provide you one.
     </my-quote>
     <br>
-    <div class="topbottom">
-        <img src="./assets/dependency injection.png" />
-        <img src="./assets/angular2_dependency_injection.jpg">
-    </div>
+    <my-quote>Dependency injection is one of those features you don’t see the benefits of right away. But the bigger your application grows, the more important it gets.</my-quote>
+    <br>
+    <ul>
+        <li>It allows you to depend on interfaces, not concrete types.</li>
+        <li>It will result in more reusable / decoupled code.</li>
+        <li>It will improve testability of your application.</li>
+    </ul>
 </ng2-slide>
 <ng2-slide>
     <h2>Angular 2 Dependency injection</h2>
@@ -317,16 +320,6 @@
     </div>
 </ng2-slide>
 <ng2-slide>
- <h2>Angular 2 Dependency injection</h2>
-      <my-quote>Dependency injection is one of those features you don’t see the benefits of right away. But the bigger your application grows, the more important it gets.</my-quote>
-    <br><br>
-    <ul>
-        <li>It allows you to depend on interfaces, not concrete types.</li>
-        <li>It will result in more reusable / decoupled code.</li>
-        <li>It will improve testability of your application.</li>
-    </ul>
-</ng2-slide>
-<ng2-slide>
     <h2>Angular 2 Property and Event binding</h2>
     <my-quote>Angular uses property bindings to automatically sync up the component tree with the model, and the DOM with the component tree.</my-quote>
     <img src="./assets/angular2_property_binding.png" />
@@ -334,9 +327,16 @@
 <ng2-slide>
     <h2>Angular 2 Property binding</h2>
     <div class="sidebyside">
-      <img src="./assets/angular2_property_binding_component.jpg" />
+        <img src="./assets/angular2_property_binding_component.jpg" />
         <img src="./assets/angular2_property_binding_template.jpg" />
     </div>
+    <br><br><br>
+    <ul class="centered small left">
+        <li><strong>[value]=”bar”</strong> - Binds the expression bar to the input element’s value property</li>
+        <li><strong>(keyup)=”expression”</strong> - Is a declarative way of binding an expression to the input element’s keyup event</li>
+        <li><strong>onKeyPress($event)</strong> - The expression that gets executed when the keyup event is fired</li>
+        <li><strong>$event</strong> - Is an expression exposed in event bindings by Angular, which has the value of the event’s payload</li>
+        </ul>
 </ng2-slide>
 <ng2-slide>
     <h2>Last slide for now...</h2>
