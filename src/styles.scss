@@ -55,12 +55,14 @@ p {
 .sidebyside {
     overflow: hidden;
     display: inline-block;
+    padding: 0 10px;
     img {
-        float: left;
+        float: right;
         display: block;
-        margin-left: 20px;
+        max-width: 48%;
+
         &:first-child {
-            margin-left: 0;
+            float:left;
             margin-right: 20px;
         }
     }

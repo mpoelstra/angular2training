@@ -1,0 +1,14 @@
+
+
+
+<div>
+    <!-- property binding, value binds to bar -->
+    <input [value]="bar" /> 
+    <h2>
+        <!-- interpolation (sugar for property binding) --> 
+        {{bar}}
+    </h2>
+    <!-- event property binding, 
+         will call onKeyPress when keyup event is raised -->
+    <input (keyup)="onKeyPress($event)" /> 
+</div>
