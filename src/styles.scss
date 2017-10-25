@@ -92,3 +92,15 @@ p {
         }
     }
 }
+
+.note {
+    font-size: 2rem;
+}
+
+ng2-slide a {
+    color: white;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
